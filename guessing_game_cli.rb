@@ -3,7 +3,7 @@ def run_guessing_game
   get_user_input = gets.chomp
   prompt_user = puts 'Guess a number between 1 and 6'
   
-  prompt_user
+  puts prompt_user
   get_user_input
   
   if get_user_input != "#{correct_number}"
